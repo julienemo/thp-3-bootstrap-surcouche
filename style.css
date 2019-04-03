@@ -1,0 +1,44 @@
+h5
+{
+  color : #222222;
+  font-weight: bold;
+}
+
+p
+{
+  font-size: 13px;
+  color : #222222;
+}
+
+footer
+{
+  position: fixed;
+  bottom: 0;
+  background-color: #f2f2f2;
+  height:50px;
+  width:100%;
+
+}
+
+body
+{
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: space-between;
+}
+
+button:hover
+{
+  font-weight:bold;
+}
+
+i
+{
+  padding:30px;
+}
+
+.col h5
+{
+  padding-bottom: 10px;
+}
