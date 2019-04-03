@@ -10,12 +10,14 @@ p
   color : #222222;
 }
 
-footer
+.footer-copyright
 {
   position: fixed;
   bottom: 0;
   background-color: #f2f2f2;
   width:100%;
+  height:30px;
+  align-items: flex-end;
 
 }
 
@@ -47,4 +49,32 @@ i
 {
   margin:auto;
   padding:0;
+}
+
+a
+{
+  color:#222222;
+}
+
+a:hover
+{
+  color:#848587;
+  text-decoration: underline;
+}
+
+.nav-link h5:hover
+{
+  color:#848587;
+  text-decoration: underline;
+}
+
+#navbuts
+{
+  display:flex;
+  justify-content: flex-end;
+}
+
+.middle
+{
+  padding-bottom: 30px;
 }
