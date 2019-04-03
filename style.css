@@ -15,7 +15,6 @@ footer
   position: fixed;
   bottom: 0;
   background-color: #f2f2f2;
-  height:50px;
   width:100%;
 
 }
@@ -38,7 +37,14 @@ i
   padding:30px;
 }
 
+
 .col h5
 {
   padding-bottom: 10px;
+}
+
+.container
+{
+  margin:auto;
+  padding:0;
 }
